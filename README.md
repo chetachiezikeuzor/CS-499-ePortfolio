@@ -69,10 +69,10 @@ The artifact used across all three enhancements is **Travlr Getaways**, a full-s
 
 ## Artifact Files
 
-- **Original Project** (before enhancements): [travlr_original.zip](travlr_original.zip) 
-- **After Enhancement 1: Software Design & Engineering**: [travlr_enhanced.zip](travlr_enhanced.zip)
-- **After Enhancement 2: Algorithms & Data Structures**: [travlr_enhanced2.zip](travlr_enhanced2.zip)
-- **Final Version (All 3 Enhancements)**: [travlr_enhanced3.zip](travlr_enhanced3.zip)
+- **[Original Project](https://github.com/chetachiezikeuzor/travlr/tree/module7)** (before enhancements): [travlr_original.zip](travlr_original.zip) 
+- **[After Enhancement 1: Software Design & Engineering](https://github.com/chetachiezikeuzor/travlr/tree/enhancement1)**: [travlr_enhanced.zip](travlr_enhanced.zip) 
+- **[After Enhancement 2: Algorithms & Data Structures](https://github.com/chetachiezikeuzor/travlr/tree/enhancement2)**: [travlr_enhanced2.zip](travlr_enhanced2.zip)
+- **[Final Version](https://github.com/chetachiezikeuzor/travlr/tree/enhancement3)** (all 3 Enhancements): [travlr_enhanced3.zip](travlr_enhanced3.zip) 
 
 
 
