@@ -40,18 +40,21 @@ This document summarizes the original functionality of the project and explains 
 ### Enhancement 1: Software Engineering and Design
 
 [Milestone Two Narrative](https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/9cd9569b7c802d1e6204ada97ceafaa77ee12895/CS%20499%20-%20Milestone%20Two%20Narrative%20-%20Chetachi.docx)
+
 I restructured the backend API for clarity and maintainability. This included breaking down monolithic route files into modular components, adding reusable middleware, and integrating a centralized Winston logger. These changes reflect my understanding of clean architecture and separation of concerns.
 
 
 ### Enhancement 2: Algorithms and Data Structures
 
 [Milestone Three Narrative](https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/9cd9569b7c802d1e6204ada97ceafaa77ee12895/CS%20499%20-%20Milestone%20Three%20Narrative%20-%20Chetachi.docx)
+
 Here, I tackled trip sorting logic, implemented helper utilities for time formatting and calculation, and improved data retrieval algorithms using better control structures. I also replaced repetitive logic with reusable functions, demonstrating algorithmic thinking and data manipulation proficiency.
 
 
 ### Enhancement 3: Databases
 
 [Milestone Four Narrative](https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/9cd9569b7c802d1e6204ada97ceafaa77ee12895/CS%20499%20-%20Milestone%20Four%20Narrative%20-%20Chetachi.docx)
+
 This enhancement focused on integrating secure user authentication using JWT, updating Mongoose schemas, and restructuring protected endpoints. I also addressed index creation and used more efficient query structures for trip retrieval. These updates demonstrate deeper database design knowledge and security awareness.
 
 
