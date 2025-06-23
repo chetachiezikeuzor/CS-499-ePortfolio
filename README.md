@@ -17,7 +17,7 @@ Below you’ll find a link to my code review video and the written addendum, whi
 
 ## Professional Self-Assessment
 
-[Self-Assessment (Word Document)](CS_499_-_Professional_Self_Assessment_-_Chetachi.docx)
+[Self-Assessment (Word Document)](https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/d6f2ec5103bad2b4cd8c7e79fc96e538d8094945/CS%20499%20-%20Professional%20Self%20Assessment%20-%20Chetachi.docx)
 
 This document is the holistic introduction to who I am as a developer. It reflects on my time in the CS program, touches on the core skills I’ve built, and highlights how each artifact in this portfolio ties into my professional goals. I discuss real-world collaboration, stakeholder communication, system design trade-offs, secure development practices, and more.
 
