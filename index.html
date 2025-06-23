@@ -4,110 +4,199 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Chetachi Ezikeuzor – CS 499 ePortfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
+    * { box-sizing: border-box; }
+
     body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
-      line-height: 1.6;
-      color: #222;
+      font-family: 'Inter', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      color: #333;
+      line-height: 1.7;
     }
-    h1, h2, h3, h4 {
-      color: #1a1a1a;
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+      background: #fff;
     }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+
+    header p {
+      margin: 0.25rem 0;
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 0.75rem;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    section {
+      margin-top: 1.5rem;
+    }
+
     a {
-      color: #007acc;
+      color: #0077cc;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
-    code {
-      background-color: #f4f4f4;
-      padding: 2px 4px;
-      border-radius: 4px;
+
+    iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+      border: none;
+      border-radius: 8px;
+      margin-top: 1rem;
     }
-    pre {
-      background: #f8f8f8;
-      padding: 1rem;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
+
     ul {
-      padding-left: 1.25rem;
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+
+    .mono {
+      font-family: 'DM Mono', monospace;
+      background: #f4f4f4;
+      padding: 0.5rem;
+      display: block;
+      border-radius: 4px;
+      overflow-x: auto;
+      font-size: 0.85rem;
+    }
+
+    .lightbox {
+      background: #fafafa;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #eaeaea;
+      margin-top: 1rem;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <h1>Chetachi Ezikeuzor</h1>
+      <p>CS 499 Capstone Portfolio</p>
+      <nav>
+        <a href="#assessment">Self-Assessment</a>
+        <a href="#video">Video</a>
+        <a href="#milestone-one-addendum">Addendum</a>
+        <a href="#enhancements">Enhancements</a>
+        <a href="#files">Files</a>
+      </nav>
+    </header>
 
-  <h1>Chetachi Ezikeuzor – CS 499 Computer Science Capstone</h1>
-  <p>Welcome! This site presents the final deliverables for my CS 499 Capstone at Southern New Hampshire University. My project centers on improving a full-stack travel planning application, <strong>Travlr Getaways</strong>, by enhancing it in three key areas: software design, algorithm optimization, and database integration. Each enhancement reflects real-world development practices and aligns with the program outcomes.</p>
+    <section id="intro">
+      <p>This site presents the final deliverables for my CS 499 Capstone at Southern New Hampshire University. My project centers on improving a full-stack travel planning application, <strong>Travlr Getaways</strong>, by enhancing it in three key areas: software design, algorithm optimization, and database integration. Each enhancement reflects real-world development practices and aligns with the program outcomes.</p>
+    </section>
 
-  <h2>Contents</h2>
-  <ul>
-    <li><a href="#professional-self-assessment">Professional Self-Assessment</a></li>
-    <li><a href="#code-review-video">Code Review Video</a></li>
-    <li><a href="#milestone-one-addendum">Milestone One Addendum</a></li>
-    <li><a href="#artifact-enhancements">Artifact Enhancements</a></li>
-    <li><a href="#artifact-overview">Artifact Overview: Travlr Getaways</a></li>
-    <li><a href="#artifact-files">Artifact Files</a></li>
-    <li><a href="#repo-structure">Repository Structure</a></li>
-  </ul>
+    <section id="assessment">
+      <h2>Professional Self-Assessment</h2>
+      <p><a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/d6f2ec5103bad2b4cd8c7e79fc96e538d8094945/CS%20499%20-%20Professional%20Self%20Assessment%20-%20Chetachi.docx" target="_blank">Download Self-Assessment (Word)</a></p>
+      <details style="margin-top: 1rem;">
+      <summary style="cursor: pointer; font-weight: 500; color: #0077cc; font-size: 1rem;">Click to view full self-assessment</summary>
+      <div class="lightbox" style="margin-top: 1rem;">
+        <p>As I look back on my journey through the Computer Science program at Southern New Hampshire University, I see more than just a collection of assignments and code—I see growth. I see a clearer sense of direction, a stronger technical foundation, and the shaping of values that now define how I approach problems as a developer. Completing this program and building this portfolio have been a huge part of that. It gave me the chance to revisit older work with new eyes and level up those artifacts in ways that reflect the skills I’ve gained along the way.</p>
 
-  <h2 id="professional-self-assessment">Professional Self-Assessment</h2>
-  <p>
-    <a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/d6f2ec5103bad2b4cd8c7e79fc96e538d8094945/CS%20499%20-%20Professional%20Self%20Assessment%20-%20Chetachi.docx" target="_blank">Download Self-Assessment (Word)</a>
-  </p>
-  <p>This reflection summarizes my academic and professional development throughout the Computer Science program. It outlines how I’ve grown across technical, collaborative, and communication domains and how each artifact in this portfolio maps to that journey.</p>
+        <p>This program helped me build a solid understanding of the core areas of computer science, but it also made me more intentional about how I approach my career. I’ve always been curious, and this major gave me the space to explore different topics—everything from software engineering to cybersecurity to mobile development. More importantly, it helped me figure out where I thrive. I realized I’m drawn to work that combines clean architecture, thoughtful design decisions, and clear user experiences. That discovery didn’t happen all at once. It evolved as I tackled projects, received feedback, and pushed myself through the tougher parts of the curriculum.</p>
 
-  <h2 id="code-review-video">Code Review Video</h2>
-  <p><a href="https://youtu.be/2PiVOO9qMG8" target="_blank">Watch on YouTube</a></p>
-  <p>This video provides an in-depth walkthrough of my original artifact, explains its existing functionality, and outlines the enhancement plan. I walk through key files, discuss architectural decisions, and explain why the changes I implemented matter.</p>
+        <p>One of the most valuable aspects of the program was learning how to collaborate effectively. I’ve worked in team settings before, but courses like CS 250 (Software Development Lifecycle) and CS 405 (Secure Coding) taught me how to contribute meaningfully in technical environments. I learned how to ask better questions, give actionable feedback, and adapt my communication depending on who I was talking to—whether it was a peer, stakeholder, or project lead. I’ve carried that forward into my professional experiences at T-Mobile and Verizon, where I supported teams with automation and application monitoring tasks. Sometimes, that meant shifting between technical operations and broader communication with non-technical teammates, which challenged me to be more flexible in how I explain and justify my work.</p>
 
-  <h2 id="milestone-one-addendum">Milestone One Addendum</h2>
-  <p>
-    <a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/main/CS%20499%20-%20Milestone%20One%20Addendum%20-%20Chetachi.docx" target="_blank">Download Addendum (Word)</a>
-  </p>
-  <p>This document captures the initial analysis of my codebase and the proposed enhancements across three competency areas. It includes justifications for each enhancement and how they map to the CS program outcomes.</p>
+        <p>When it comes to communication, I’ve grown a lot. Early in the program, I focused mostly on whether my code worked. Now, I put just as much effort into clarity and documentation. Through assignments like the code review video and narrative writing, I’ve learned how to explain the why behind my work, not just the what. That skill has proven incredibly valuable, especially when justifying design trade-offs, walking others through architecture, or presenting enhancements that improve scalability or security.</p>
 
-  <h2 id="artifact-enhancements">Artifact Enhancements</h2>
+        <p>In terms of technical growth, this capstone is where everything started to click. For the software engineering enhancement, I applied clean architecture principles to reorganize the backend of my full-stack app, breaking up monolithic logic into modular routes and middleware. That was a direct result of what I learned in CS 320 (Software Testing and QA) and CS 340 (Software Engineering). For the algorithms enhancement, I refined backend utilities by writing more efficient data sorting and filtering logic. I leaned on skills from CS 260 (Data Structures and Algorithms) and practiced making trade-offs between readability and performance. And for the database enhancement, I implemented JWT authentication and optimized MongoDB queries—an area I explored further in CS 405 and CS 350 (Computer Architecture and Operating Systems), where I started thinking more critically about data flow and security from the ground up.</p>
 
-  <h3>1. Software Engineering and Design</h3>
-  <p>
-    <a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/main/CS%20499%20-%20Milestone%20Two%20Narrative%20-%20Chetachi.docx" target="_blank">Milestone Two Narrative (Word)</a>
-  </p>
-  <p>To improve modularity and maintainability, I refactored the backend Express API by extracting logic into middleware, adding centralized Winston-based logging, and restructuring routes for clarity. I followed clean architecture principles learned in CS 320 and CS 340 to break up monolithic logic and improve testability.</p>
+        <p>Security is something I’ve developed a much stronger mindset around. Earlier in the program, I saw it as something separate, something you “add on” after building the main functionality. But through courses like CS 405 and the security-focused work I did during this capstone, I realized that security starts at the architecture level. Thinking about data validation, access control, and user authentication as part of the initial design process has made my applications more resilient and user aware. Even when using third-party libraries or frameworks, I now approach them more critically, asking: How does this handle user data? What vulnerabilities does this open?</p>
 
-  <h3>2. Algorithms and Data Structures</h3>
-  <p>
-    <a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/main/CS%20499%20-%20Milestone%20Three%20Narrative%20-%20Chetachi.docx" target="_blank">Milestone Three Narrative (Word)</a>
-  </p>
-  <p>This enhancement focused on performance and clarity. I rewrote the date sorting algorithm, optimized filtering utilities, and removed nested conditional logic. These changes reduced cognitive complexity and made the frontend behavior more predictable and efficient, particularly in how it filters and displays travel entries.</p>
+        <p>This capstone project ties all those lessons together. I chose to enhance a full-stack travel planning app that I originally built in a previous course. Each enhancement—software design, algorithms, and databases—builds on the last. Together, they demonstrate not just a wider range of technical skills, but also a more mature perspective on how to maintain and scale an application over time. My goal with this portfolio wasn’t just to check boxes. I wanted to produce work I’d be proud to show to a hiring manager, recruiter, or engineering peer.</p>
 
-  <h3>3. Databases</h3>
-  <p>
-    <a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/main/CS%20499%20-%20Milestone%20Four%20Narrative%20-%20Chetachi.docx" target="_blank">Milestone Four Narrative (Word)</a>
-  </p>
-  <p>I improved the backend’s security posture and data handling by implementing JWT authentication, redesigning Mongoose schemas to be more scalable, and optimizing database queries. I also added input validation and sanitized all user inputs to protect against injection attacks and reduce the risk of data corruption.</p>
+        <p>Ultimately, this program helped me bridge the gap between learning and doing. It taught me to think like a developer, not just a student. And while there’s still so much I want to learn and explore (especially in full-stack development and cloud infrastructure), I feel more confident stepping into roles that require not just technical ability, but also thoughtful communication, collaboration, and decision-making. My ePortfolio is the best reflection of that growth.</p>
+      </div>
+    </details>
+    </section>
 
-  <h2 id="artifact-overview">Artifact Overview: Travlr Getaways</h2>
-  <ul>
-    <li><strong>Frontend:</strong> Angular with Bootstrap</li>
-    <li><strong>Backend:</strong> Node.js using Express and Handlebars</li>
-    <li><strong>Database:</strong> MongoDB via Mongoose</li>
-    <li><strong>Authentication:</strong> JSON Web Tokens (JWT)</li>
-    <li><strong>Logging & Error Handling:</strong> Winston, custom middleware</li>
-  </ul>
+    <section id="video">
+      <h2>Code Review Video</h2>
+      <iframe src="https://www.youtube.com/embed/2PiVOO9qMG8" title="Capstone Code Review Video" allowfullscreen></iframe>
+      <p>This video provides an in-depth walkthrough of my original artifact, explains its existing functionality, and outlines the enhancement plan. I walk through key files, discuss architectural decisions, and explain why the changes I implemented matter.</p>
+    </section>
 
-  <h2 id="artifact-files">Artifact Files</h2>
-  <ul>
-    <li><a href="https://github.com/chetachiezikeuzor/travlr/tree/module7" target="_blank">Original Project (Before Enhancements)</a></li>
-    <li><a href="https://github.com/chetachiezikeuzor/travlr/tree/enhancement1" target="_blank">Enhancement 1: Software Design</a></li>
-    <li><a href="https://github.com/chetachiezikeuzor/travlr/tree/enhancement2" target="_blank">Enhancement 2: Algorithms</a></li>
-    <li><a href="https://github.com/chetachiezikeuzor/travlr/tree/enhancement3" target="_blank">Enhancement 3: Databases</a></li>
-  </ul>
+    <section id="milestone-one-addendum">
+      <h2>Milestone One Addendum</h2>
+      <p><a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/main/CS%20499%20-%20Milestone%20One%20Addendum%20-%20Chetachi.docx" target="_blank">Download Addendum (Word)</a></p>
+      <p>This document captures the initial analysis of my codebase and the proposed enhancements across three competency areas. It includes justifications for each enhancement and how they map to the CS program outcomes.</p>
+    </section>
 
-  <h2 id="repo-structure">Repository Structure</h2>
-  <pre><code>
+    <section id="enhancements">
+      <h2>Artifact Enhancements</h2>
+
+      <h3>1. Software Engineering and Design</h3>
+      <p><a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/main/CS%20499%20-%20Milestone%20Two%20Narrative%20-%20Chetachi.docx" target="_blank">Milestone Two Narrative (Word)</a></p>
+      <p>To improve modularity and maintainability, I refactored the backend Express API by extracting logic into middleware, adding centralized Winston-based logging, and restructuring routes for clarity. I followed clean architecture principles learned in CS 320 and CS 340 to break up monolithic logic and improve testability.</p>
+
+      <h3>2. Algorithms and Data Structures</h3>
+      <p><a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/main/CS%20499%20-%20Milestone%20Three%20Narrative%20-%20Chetachi.docx" target="_blank">Milestone Three Narrative (Word)</a></p>
+      <p>This enhancement focused on performance and clarity. I rewrote the date sorting algorithm, optimized filtering utilities, and removed nested conditional logic. These changes reduced cognitive complexity and made the frontend behavior more predictable and efficient, particularly in how it filters and displays travel entries.</p>
+
+      <h3>3. Databases</h3>
+      <p><a href="https://github.com/chetachiezikeuzor/CS-499-ePortfolio/blob/main/CS%20499%20-%20Milestone%20Four%20Narrative%20-%20Chetachi.docx" target="_blank">Milestone Four Narrative (Word)</a></p>
+      <p>I improved the backend’s security posture and data handling by implementing JWT authentication, redesigning Mongoose schemas to be more scalable, and optimizing database queries. I also added input validation and sanitized all user inputs to protect against injection attacks and reduce the risk of data corruption.</p>
+    </section>
+
+    <section id="files">
+      <h2>Artifact Files</h2>
+      <ul>
+        <li><a href="https://github.com/chetachiezikeuzor/travlr/tree/module7" target="_blank">Original Project (Before Enhancements)</a></li>
+        <li><a href="https://github.com/chetachiezikeuzor/travlr/tree/enhancement1" target="_blank">Enhancement 1: Software Design</a></li>
+        <li><a href="https://github.com/chetachiezikeuzor/travlr/tree/enhancement2" target="_blank">Enhancement 2: Algorithms</a></li>
+        <li><a href="https://github.com/chetachiezikeuzor/travlr/tree/enhancement3" target="_blank">Enhancement 3: Databases</a></li>
+      </ul>
+
+      <h3>Artifact Overview: Travlr Getaways</h3>
+      <ul>
+        <li><strong>Frontend:</strong> Angular with Bootstrap</li>
+        <li><strong>Backend:</strong> Node.js using Express and Handlebars</li>
+        <li><strong>Database:</strong> MongoDB via Mongoose</li>
+        <li><strong>Authentication:</strong> JSON Web Tokens (JWT)</li>
+        <li><strong>Logging & Error Handling:</strong> Winston, custom middleware</li>
+      </ul>
+
+      <h3>Repository Structure</h3>
+      <pre class="mono">
 travlr_enhanced3/
 ├── app_admin/        # Angular frontend
 ├── app_api/          # Express API with Mongoose models/controllers
@@ -116,7 +205,8 @@ travlr_enhanced3/
 ├── data/             # Local data and sample seed files
 ├── index.js          # Express server entry point
 └── README.md         # Project summary and run instructions
-  </code></pre>
-
+      </pre>
+    </section>
+  </div>
 </body>
 </html>
