@@ -1,4 +1,5 @@
 # CS 499 Computer Science Capstone 
+
 **By: Chetachi Ezikeuzor**
 
 Welcome! This repository contains the final deliverables for my CS 499 Capstone project at Southern New Hampshire University. The focus of this project was to take an existing full-stack web application—Travlr Getaways—and enhance it across three core areas: software engineering and design, algorithms and data structures, and database integration.
